@@ -64,7 +64,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "list-staged"
+      "pre-commit": "npx list-staged"
     }
   }
 }
