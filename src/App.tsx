@@ -2,10 +2,10 @@ import './styles/index.scss';
 import { ClickCounter } from './components/ClickCounter';
 
 export const App = () => {
-  const name = "CJ";
+  const name = "CJDV";
   return (
     <div>
-      <h1>Hi React Typescript! Hey </h1>
+      <h1>Hi React Typescript! Hey {name}</h1>
       <ClickCounter />{' '}
     </div>
   );
