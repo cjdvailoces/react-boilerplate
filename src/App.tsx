@@ -1,12 +1,12 @@
-import './styles/index.scss';
-import { ClickCounter } from './components/ClickCounter';
+import "./styles/index.scss";
+import { ClickCounter } from "./components/ClickCounter";
 
 export const App = () => {
-  const name = 'CJDV';
+  const name = "CJDV";
   return (
     <div>
       <h1>Hi React Typescript! Hey yoww {name}!</h1>
-      <ClickCounter />{' '}
+      <ClickCounter />{" "}
     </div>
   );
 };

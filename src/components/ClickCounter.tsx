@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 export const ClickCounter = () => {
   const [count, setCounter] = React.useState(0);
